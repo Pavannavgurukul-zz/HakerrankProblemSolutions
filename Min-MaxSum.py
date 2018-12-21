@@ -1,0 +1,5 @@
+arr= list(map(int, input().rstrip().split()))
+a=(sum(arr))
+b=(max(arr))
+c=(min(arr))
+print((a-b),(a-c))
